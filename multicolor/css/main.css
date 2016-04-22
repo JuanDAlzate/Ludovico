@@ -13,11 +13,11 @@
 
   body {
     background: #fff;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 14px;
     line-height: 22px;
-    color: #000;
+    color: #878996 ;  
   }
 
   html {
@@ -167,8 +167,8 @@
 
 #header{
   margin-bottom: 0;
-  padding: 10px 0 0px 0;
-  background: f5f6f8;
+  padding: 0px 0 0px 0;
+  background: #f5f6f8;
 }
 
 #header .navbar-inverse .container{
@@ -211,7 +211,7 @@
 }
 
 .social-icons ul li{
-  padding: 0 10px;
+  padding: 5px 10px;
 
 }
 
@@ -221,29 +221,14 @@
 }
 
 .social-icons ul li a{
-  font-size: 18px;
-  color: #d3d3d3;
+  font-size: 12px;
+  color: #878996;
   padding: 0;
+  font-weight: bolder;
 }
 
-.social-icons ul li a:hover .fa-facebook {
-  color:#0884d5;
-}
-
-.social-icons ul li a:hover .fa-twitter {
-  color:#2AA7DC;
-}
-
-.social-icons ul li a:hover .fa-google-plus {
-  color:#A22523;
-}
-
-.social-icons ul li a:hover .fa-dribbble {
-  color:#E94989;
-}
-
-.social-icons ul li a:hover .fa-linkedin {
-  color:#006DC0;
+.social-icons  ul li a.texto:hover:{
+  color:#16b388;
 }
 
 .social-icons ul li a:hover,
@@ -255,6 +240,7 @@
   background: #fff;
   border: 0;
   margin-bottom: 0;
+  padding-top: 5px;  
 }
 
 #header .navbar-toggle{
@@ -276,11 +262,11 @@
 }
 
 #header .navbar-nav.navbar-right >li a {
-  color: #000;
+  color: #878996;
+  font-weight: bold;
   font-size: 12px;
   padding: 20px;
-  text-transform: uppercase;
-  font-weight: 300;
+   
 }
 
 
@@ -536,8 +522,8 @@ ul.sub-menu {
 #home-slider {
   background: url(../Home/001_41.png) 0 100% repeat-x;
   position: relative;
-  border: 1px solid black;
-   height: 450px;
+  height: 450px;
+  width: 100%;
 }
 
 #home-slider h1{
@@ -632,6 +618,25 @@ ul.sub-menu {
   font-weight: 300;
 }
 
+/****#texto-encantador"*/
+#conoce-mas{
+  height: 100px;
+  background:#f5f6f8;
+}
+#conoce-mas .textos{
+  text-align: center;
+  padding-top:30px; 
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #3a4652;
+  font-size: 25px;
+}
+
+/****#Features"*/
+#features{
+  padding-top: 60px;
+}
+
 .single-features {
   overflow: hidden;
   padding-top: 65px;
@@ -647,8 +652,13 @@ ul.sub-menu {
   padding-top: 0;
 }
 
-.single-features h2{
-  margin-bottom: 15px;
+.single-features .textos{
+  margin-top: -50px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #3a4652;
+  font-size: 25px;
 }
 
 #clients{
@@ -667,8 +677,6 @@ ul.sub-menu {
   overflow: hidden;
   margin-bottom: 10px;
 }
-
-
 
 /*************************
 *******About Us Page******
