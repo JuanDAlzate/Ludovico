@@ -374,11 +374,31 @@ ul.sub-menu {
 
 #footer {
   padding-bottom: 10px;
-  background-image: url(../images/home/footer.png);
-  background-repeat: repeat-x;
-  background-position: bottom;
-  background-size: contain;
+  border:1px solid black;  
+  background: #9F5EBA;
+  color:#FEFBFD;
+  padding-top: 70px;
+
 }
+#footer .container-us .texto,.container-news .texto{
+  color:#FEFBFD;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: -1px;
+}
+#footer .container-us .description{
+  letter-spacing: -1px;
+  color:#FDFCFB;
+  padding-bottom:10px;
+}
+#footer .container-us p a{
+  color:#FEFBFD;
+}
+#footer .container-us .container-images a img{
+  margin-right: 5px;
+}
+
 
 #footer h1{
   margin-bottom: 65px;
@@ -635,12 +655,13 @@ ul.sub-menu {
 /****#Features"*/
 #features{
   padding-top: 60px;
+ 
 }
 
 .single-features {
   overflow: hidden;
   padding-top: 65px;
-  padding-bottom: 40px;
+  padding-bottom: 0px;
 }
 
 .single-features .col-sm-6 {
@@ -648,7 +669,7 @@ ul.sub-menu {
 }
 
 .single-features:last-child {
-  padding-bottom: 95px;
+  padding-bottom: 55px;
   padding-top: 0;
 }
 
@@ -676,6 +697,57 @@ ul.sub-menu {
 .clients-logo {
   overflow: hidden;
   margin-bottom: 10px;
+}
+
+/****#several-images"*/
+#several-images{
+  background: #f5f6f8;  
+  width:100%;
+  }
+
+#several-images .texto{
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #3a4652;
+  font-size: 20px;
+  text-align:center;
+  padding-top:50px;
+  padding-bottom:30px;
+  
+}
+.block-images{
+  float:left;
+  margin:2px 2px;
+  box-sizing:border-box;
+  width:23.24%;
+  height:24%;
+}
+#several-images .single-features .block-images img{
+  max-width: 100%;
+  max-height:25%;
+}
+.buton-seeMore{
+  text-align:center;
+  margin-top:50px;
+}
+
+/****#several-images"*/
+.follow{
+  width: 100%;  
+  margin:30px 0px;
+}
+.follow .textos{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.follow .icons{
+  text-align: center;
+}
+.follow .icons a img{
+  margin-right: 15px;
+  margin-bottom: 20px;
 }
 
 /*************************
