@@ -374,9 +374,10 @@ ul.sub-menu {
 
 #footer {
   padding-bottom: 10px;
-  background: #9F5EBA;
+  background:#9f5fba;
   color:#FEFBFD;
   padding-top: 70px;
+  padding-bottom: 70px;
 
 }
 #footer .container-us .texto,.container-news .texto{
@@ -385,6 +386,7 @@ ul.sub-menu {
   text-transform: uppercase;
   font-size: 18px;
   letter-spacing: -1px;
+  margin-bottom: 20px;
 }
 #footer .container-us .description{
   letter-spacing: -1px;
@@ -424,6 +426,7 @@ ul.sub-menu {
   text-transform: uppercase;
   font-size: 18px;
   letter-spacing: -1px;
+  margin-bottom: 20px;
 }
 #footer .container-tags .texto2{
   margin-top:5px;
@@ -447,6 +450,7 @@ ul.sub-menu {
   text-transform: uppercase;
   font-size: 18px;
   letter-spacing: -1px;
+  margin-bottom: 20px;
 }
 #footer .contact-us div {    
     margin-bottom:40px;  
@@ -462,22 +466,21 @@ ul.sub-menu {
 }
 #sub-footer{
   background: #752098;
-  height: 85px;
   color: #FCFFFF;
-  overflow: auto;
+  overflow: visible;
+  padding-top: 30px;
+  padding-bottom: 20px;
     
 }
 #sub-footer .sub-footer .text{
-  text-align: left;
-  margin-top: 30px;
+  text-align: left;  
   font-weight: bolder;
   display:inline-block;
   margin-bottom: 10px;
 
 }
 #sub-footer .sub-footer ul{
-  float: right;
-  margin-top: 30px;
+  float: right;  
   display: inline-block;
 
 }
@@ -486,7 +489,7 @@ ul.sub-menu {
   margin-right: 30px;
 }
 #sub-footer .sub-footer ul li a{
- color:#FCFFFF;
+ color:#FCFFFF; 
  font-weight: bold;
 }
 #footer .bottom-separator {
