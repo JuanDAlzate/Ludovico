@@ -374,7 +374,6 @@ ul.sub-menu {
 
 #footer {
   padding-bottom: 10px;
-  border:1px solid black;  
   background: #9F5EBA;
   color:#FEFBFD;
   padding-top: 70px;
@@ -449,8 +448,7 @@ ul.sub-menu {
   font-size: 18px;
   letter-spacing: -1px;
 }
-#footer .contact-us div {
-    
+#footer .contact-us div {    
     margin-bottom:40px;  
 }
 #footer .contact-us div:nth-child(odd) {
@@ -462,7 +460,35 @@ ul.sub-menu {
   left:50px;
   margin-top:-20px;
 }
+#sub-footer{
+  background: #752098;
+  height: 85px;
+  color: #FCFFFF;
+  overflow: auto;
+    
+}
+#sub-footer .sub-footer .text{
+  text-align: left;
+  margin-top: 30px;
+  font-weight: bolder;
+  display:inline-block;
+  margin-bottom: 10px;
 
+}
+#sub-footer .sub-footer ul{
+  float: right;
+  margin-top: 30px;
+  display: inline-block;
+
+}
+#sub-footer .sub-footer ul li{
+  display: inline-block;
+  margin-right: 30px;
+}
+#sub-footer .sub-footer ul li a{
+ color:#FCFFFF;
+ font-weight: bold;
+}
 #footer .bottom-separator {
   margin-bottom: 60px;
 }
