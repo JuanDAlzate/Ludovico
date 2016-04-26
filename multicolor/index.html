@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Home | Triangle</title>
+    <title>Index | Triangle</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet"> 
@@ -22,6 +22,14 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    <script type="text/javascript">
+      function ver(n) {
+               document.getElementById("subseccion"+n).style.display="block"
+               }
+      function ocultar(n) {
+               document.getElementById("subseccion"+n).style.display="none"
+               }
+    </script>
 </head><!--/head-->
 
 <body>
@@ -41,12 +49,17 @@
                     </div> 
                     <div class="social-icons pull-right">
                         <ul class="nav nav-pills">
-                            <li><a href=""><i class="icons-paises"><img src="Home/002_03.png" alt="Social icons image"> Español</i></a></li>
-                            <li><a href=""><i class="">Registrate</i></a></li>
-                            <li><a href=""><i class="fa-">Iniciar sesión</i></a></li>
-                            <li><a href=""><img src="Home/001_17.png" alt="Social icons image"> (0) Productos en el carro</a></li>                          
-                            
-                        </ul>
+                            <li id="seccion1" onmouseover="ver(1)" onmouseout="ocultar(1)" class="dropdown"><a href="#"><img src="Home/002_03.png" alt="Social icons image"> Español <img src="Home/001_23.png" alt=""></a>
+                              <div id="subseccion1">
+                                <p><a href=""><img src="Home/002_05.png" alt=""> English</a></p>
+                                <p><a href=""><img src="Home/002_05.png" alt=""> English</a></p>
+                              </div>
+                            </li>
+
+                            <li><a href="">Registrate</a></li>
+                            <li><a href="">Iniciar sesión</a></li>
+                            <li><a href=""><img src="Home/001_17.png" alt="Social icons image"> (0) Productos en el carro</a></li>    
+                          </ul>
                     </div> 
                 </div>
              </div>
@@ -283,6 +296,7 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/lightbox.min.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>   
+    <script type="text/javascript" src="js/main.js"></script>
+        
 </body>
 </html>
