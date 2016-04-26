@@ -13,7 +13,7 @@
 
   body {
     background: #fff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans';
     font-weight: 300;
     font-size: 14px;
     line-height: 22px;
@@ -453,7 +453,7 @@ ul.sub-menu {
   margin-bottom: 20px;
 }
 #footer .contact-us div {    
-    margin-bottom:40px;  
+    margin-bottom:60px;  
 }
 #footer .contact-us div:nth-child(odd) {
   margin-bottom:10px;
@@ -626,104 +626,7 @@ ul.sub-menu {
 /*************************
 *******Home Page******
 **************************/
-#home-slider {
-  background: url(../Home/001_41.png) 0 100% repeat-x;
-  position: relative;
-  height: 450px;
-  width: 100%;
-}
 
-#home-slider h1{
-  margin-top: 100px;
-  margin-bottom: 25px;
-}
-
-#home-slider .btn-common {
-  margin-top: 20px;
-}
-
-#home-slider .preloader {
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: -30px;
-  right: 0;
-  background: #fafafa;
-  text-align: center;
-}
-
-#home-slider .preloader > i {
-  font-size: 48px;
-  height: 48px;
-  line-height: 48px;
-  color: #00aeef;
-  position: absolute;
-  left: 50%;
-  margin-left: -24px;
-  top: 50%;
-  margin-top: -24px;
-}
-
-#action {
-  background-image: url(../images/home/tour-bg.png);
-  background-color: #fbfafa;
-  background-repeat: repeat-x;
-  height: 157px;
-  background-position: center;
-  display: table;
-  position: static;
-  width: 100%;
-}
-
-.vertical-center{
-  display: table-cell;
-  vertical-align: middle;
-  width: 100%;
-  position: statice;
-}
-
-
-.single-service{
-  overflow: hidden;
-  display: block;
-}
-
-.single-service img {
-  margin-bottom: 35px;
-}
-
-.single-service .fold {
-  margin-bottom: 35px;
-}
-
-.single-service h2 {
-  margin-top: 0;
-  margin-bottom: 15px;
-}
-
-.single-service p {
-  padding: 0 48px;
-}
-
-.action h1{
-  margin-top: 0;
-}
-
-.action p{
-  font-size: 18px;
-  margin-bottom: 0;
-  font-weight: 300;
-}
-
-.action .btn-common{
-  margin-top: 55px;
-  float: left;
-}
-
-.title {
-  color: #404040;
-  font-weight: 300;
-}
 
 /****#texto-encantador"*/
 #conoce-mas{  
@@ -828,6 +731,7 @@ ul.sub-menu {
   margin-right: 15px;
   margin-bottom: 20px;
 }
+
 /*************************
 *******Quienes Somos******
 **************************/
@@ -843,11 +747,14 @@ ul.sub-menu {
   color: #FFFDFE;
   font-size: 25px;
 }
-/****#single-featureDos"*/
+/****#single-featureDos */
 #features .single-featuresDos .imagen{
   margin:0 auto;
   width:230px;
   margin-bottom:40px;
+}
+.features2{
+  padding-bottom: 70px;
 }
 #features .single-featuresDos .paragraph{
   width:900px;
@@ -860,7 +767,34 @@ ul.sub-menu {
 #features .single-featuresDos .circle {
   text-align:center;
 }
+#features .single-featuresDos .circle img{
+   border-radius: 50%;
+   border:1px solid #00BE9A;
+}
+#features .single-featuresDos .circle .text-circle{
+ font-weight: bold;
+  color: #3a4652;
+  font-size: 14px;
+  text-align:center;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+/****#features .page2*/
+/*section4_page2*/
+.section4_page2{
+  background: #f5f6f8;
+}
 
+
+/*Estilo para los encabezados con color negro*/
+.head-standard{
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #3a4652;
+  font-size: 20px;
+  text-align:left;
+  padding-bottom:10px;
+} 
 
 /*************************
 *******About Us Page******
