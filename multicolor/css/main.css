@@ -726,10 +726,10 @@ ul.sub-menu {
 }
 
 /****#texto-encantador"*/
-#conoce-mas{
-  height: 100px;
+#conoce-mas{  
   background:#f5f6f8;
 }
+
 #conoce-mas .textos{
   text-align: center;
   padding-top:30px; 
@@ -741,25 +741,20 @@ ul.sub-menu {
 
 /****#Features"*/
 #features{
-  padding-top: 60px;
- 
+  padding-top: 60px; 
 }
-
 .single-features {
   overflow: hidden;
   padding-top: 65px;
   padding-bottom: 0px;
 }
-
 .single-features .col-sm-6 {
   margin-top: 50px;
 }
-
 .single-features:last-child {
   padding-bottom: 55px;
   padding-top: 0;
 }
-
 .single-features .textos{
   margin-top: -50px;
   margin-bottom: 20px;
@@ -768,15 +763,12 @@ ul.sub-menu {
   color: #3a4652;
   font-size: 25px;
 }
-
 #clients{
   padding-bottom: 45px;
 }
-
 .clients {
   margin-bottom: 45px;
 }
-
 .clients img {
   display: inline-block;
 }
@@ -836,6 +828,39 @@ ul.sub-menu {
   margin-right: 15px;
   margin-bottom: 20px;
 }
+/*************************
+*******Quienes Somos******
+**************************/
+#conoce-masDos{
+  background:#00BE9C;
+  height: 100px;
+}
+#conoce-masDos .textos{
+  text-align: center;
+  padding-top:30px; 
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #FFFDFE;
+  font-size: 25px;
+}
+/****#single-featureDos"*/
+#features .single-featuresDos .imagen{
+  margin:0 auto;
+  width:230px;
+  margin-bottom:40px;
+}
+#features .single-featuresDos .paragraph{
+  width:900px;
+  margin:0 auto;
+  margin-bottom:40px;
+}
+#features .single-featuresDos .paragraph p{
+  text-align:center;
+}
+#features .single-featuresDos .circle {
+  text-align:center;
+}
+
 
 /*************************
 *******About Us Page******
@@ -1051,6 +1076,8 @@ h3.top-zero{
 .progress-bar.progress-bar-primary{
   background: #00aeef;
 }
+
+
 
 
 
