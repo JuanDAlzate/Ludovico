@@ -365,23 +365,22 @@ ul.sub-menu {
 
 /*Dropdown menu idioma*/
 .social-icons{
-   position: relative !important;
+   max-height:65px;
+   position:relative
 }
 .social-icons li#seccion1{
-  background: red;
-  list-style-type: none;
+  list-style-type: none;  
 }
 .social-icons li#seccion1:hover{
-  background: aqua;
+  
 }
 .social-icons #subseccion1{
-  position: absolute !important;
+  position: absolute;
   z-index:2;
-  top: 100%;
+  top:5px;  
   right:100%;
-  background: yellow;
   display: none;
-  width: 100%;  
+  width: 80%;  
 }
 
 /*************************
