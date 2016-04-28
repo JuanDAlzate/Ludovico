@@ -818,12 +818,20 @@ section#block-red{
 section#block-red .textos{
 		color:text-align: center;
 		padding:10px; 
-		padding-top:15px;
+		padding-top:20px;
 		font-weight: bold;
 		text-transform: uppercase;
 		color: #FFFDFE;;
 		font-size:22px;
 		letter-spacing:-1px;
+    display: inline-block;
+}
+section#block-red .icons-view{
+   padding:10px;
+   
+}
+section#block-red .icons-view img{
+    display: inline-block;
 }
 
 /******catalog-two******/
@@ -858,7 +866,19 @@ section#catalog-two .items .description .text{
 	text-align: left;
 	font-weight: bold;
 	margin-bottom: 20px;
-	color: #3a4652;	
+	color: #3a4652;	  
+  display: inline-block;
+}
+section#catalog-two .items .description div.stars{
+  display: inline-block;
+  position: relative;    
+}
+section#catalog-two .items .description div.stars img{
+  display: inline-block;
+  margin-right: -3px;  
+}
+section#catalog-two .items .description div.stars img:nth-child(1){
+  margin-left: 5px;
 }
 section#catalog-two .items .description .text-words{
 	 margin-top:-25px;
