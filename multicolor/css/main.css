@@ -163,6 +163,8 @@
 /*************************
 *******Header******
 **************************/
+
+
 #header{
   margin-bottom: 0;
   padding: 0px 0 0px 0;
@@ -224,6 +226,10 @@
   padding: 0;
   font-weight: bolder;
 }
+.social-icons ul li a:hover{
+  color:#00aeef;
+}
+
 
 .social-icons  ul li a.texto:hover:{
   color:#16b388;
@@ -263,8 +269,10 @@
   color: #878996;
   font-weight: bold;
   font-size: 12px;
-  padding: 20px;   
+  padding: 20px;
+   
 }
+
 
 #header .navbar-inverse .navbar-nav  li.active > a,  
 #header .navbar-inverse .navbar-nav  li.active > a:focus, 
@@ -279,7 +287,9 @@
   color: #00aeef;
 }
 
+
 /*  Dropdown menu*/
+
 ul.sub-menu {
   display: none;
   list-style: none;
@@ -364,36 +374,26 @@ ul.sub-menu {
 }
 
 /*Dropdown menu idioma*/
-.social-icons{
-   max-height:65px;
-   position:relative
-}
-.social-icons li#seccion1{
-  list-style-type: none;  
-}
-.social-icons li#seccion1:hover{
-  
-}
+
 .social-icons #subseccion1{
   position: absolute;
-  z-index:2;
-  top:5px;  
-  right:100%;
-  display: none;
-  width: 80%;  
+  top:4px;
+  right: 90%;
+  width: 70%;  
 }
 
 /*************************
 *******Footer******
 **************************/
+
 #footer {
   padding-bottom: 10px;
   background:#9f5fba;
   color:#FEFBFD;
   padding-top: 70px;
   padding-bottom: 70px;
-}
 
+}
 #footer .container-us .texto,.container-news .texto{
   color:#FEFBFD;
   font-weight: bold;
@@ -402,17 +402,14 @@ ul.sub-menu {
   letter-spacing: -1px;
   margin-bottom: 20px;
 }
-
 #footer .container-us .description{
   letter-spacing: -1px;
   color:#FDFCFB;
   padding-bottom:10px;
 }
-
 #footer .container-us p a{
   color:#FEFBFD;
 }
-
 #footer .container-us .container-images a img{
   margin-right: 5px;
   margin-top:20px;
@@ -423,11 +420,9 @@ ul.sub-menu {
   margin-left: 60px;
   float: right;
 }
-
 #footer .container-news .content-images{
   margin-bottom: 25px;
 }
-
 #footer .container-news .content-images a{
   float: left;
   margin-left: 60px;
@@ -436,6 +431,7 @@ ul.sub-menu {
   color:#FEFBFD;
   font-size: 13px;
   color: #C9ABD8;
+
 }
 
 #footer .container-tags .texto{
@@ -446,27 +442,22 @@ ul.sub-menu {
   letter-spacing: -1px;
   margin-bottom: 20px;
 }
-
 #footer .container-tags .texto2{
   margin-top:5px;
 }
-
 #footer .container-tags .picture-tags{
   margin-right: 5px;
   display: inline-block;
 }
-
 #footer .container-tags .picture-tags p{
   background: #7B269F;
   display: block;
   text-align: center;
   padding: 0px 10px;
 }
-
 #footer .container-tags .texto-links{
   width:140px;
 }
-
 #footer .contact-us .texto{
   color:#FEFBFD;
   font-weight: bold;
@@ -475,51 +466,46 @@ ul.sub-menu {
   letter-spacing: -1px;
   margin-bottom: 20px;
 }
-
 #footer .contact-us div {    
     margin-bottom:60px;  
 }
-
 #footer .contact-us div:nth-child(odd) {
-  margin-bottom:10px;     
+  margin-bottom:10px;
+     
 }
-
 #footer .contact-us div dl{
   position:absolute;
   left:50px;
   margin-top:-20px;
 }
-
 #sub-footer{
   background: #752098;
   color: #FCFFFF;
   overflow: visible;
   padding-top: 30px;
-  padding-bottom: 20px;    
+  padding-bottom: 20px;
+    
 }
-
 #sub-footer .sub-footer .text{
   text-align: left;  
   font-weight: bolder;
   display:inline-block;
   margin-bottom: 10px;
-}
 
+}
 #sub-footer .sub-footer ul{
   float: right;  
   display: inline-block;
-}
 
+}
 #sub-footer .sub-footer ul li{
   display: inline-block;
   margin-right: 30px;
 }
-
 #sub-footer .sub-footer ul li a{
  color:#FCFFFF; 
  font-weight: bold;
 }
-
 #footer .bottom-separator {
   margin-bottom: 60px;
 }
@@ -654,6 +640,8 @@ ul.sub-menu {
 /*************************
 *******Home Page******
 **************************/
+
+
 /****#texto-encantador"*/
 #conoce-mas{  
   background:#f5f6f8;
