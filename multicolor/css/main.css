@@ -843,24 +843,25 @@ section#catalog-two {
 section#catalog-two .items{
 	box-sizing:border-box;
 	margin-bottom:30px;
+  padding: 0px 0px;
+  padding-bottom: -10px !important;
 }
 section#catalog-two .items .images{
 	display:inline-block;	
 	width:32%;
-	padding:0px;
+	padding-bottom:0px;
 	margin:0px;	
 	box-sizing:border-box;
 }
 section#catalog-two .items .images img{
 	width:100%;
 }
-
 section#catalog-two .items .description{
 	display:inline-block;
 	vertical-align:top;
 	padding:10px 20px;
 	width:67%;
-	box-sizing:border-box;
+	box-sizing:border-box;  
 }
 section#catalog-two .items .description .text{
 	text-align: left;
@@ -886,12 +887,13 @@ section#catalog-two .items .description .text-words{
 	 font-size:12px;	 	 
 }
 section#catalog-two .items .description hr{
-	margin-top:0px;	
+	margin-top:0px;
+  margin-bottom:8px;	
 }
 section#catalog-two .items .description p:nth-child(4){
-   margin-top:-15px;
+   margin-top:0px;
    margin-bottom:0px;
-}
+  }
 section#catalog-two .items .description .text small{
 	margin:0px 8px;
 	margin-right:40px;
@@ -899,7 +901,7 @@ section#catalog-two .items .description .text small{
 }
 section#catalog-two .items .description p:nth-child(6){
    font-weight:bolder;  
-   margin-top:-8px; 
+   margin-top:-8px;    
 }
 section#catalog-two .items .description img{
    margin-right:15px;
