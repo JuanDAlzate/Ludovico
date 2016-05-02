@@ -163,8 +163,6 @@
 /*************************
 *******Header******
 **************************/
-
-
 #header{
   margin-bottom: 0;
   padding: 0px 0 0px 0;
@@ -269,11 +267,8 @@
   color: #878996;
   font-weight: bold;
   font-size: 12px;
-  padding: 20px;
-   
+  padding: 20px;   
 }
-
-
 #header .navbar-inverse .navbar-nav  li.active > a,  
 #header .navbar-inverse .navbar-nav  li.active > a:focus, 
 #header .navbar-nav.navbar-right li > a:hover,
@@ -287,9 +282,7 @@
   color: #00aeef;
 }
 
-
 /*  Dropdown menu*/
-
 ul.sub-menu {
   display: none;
   list-style: none;
@@ -374,7 +367,6 @@ ul.sub-menu {
 }
 
 /*Dropdown menu idioma*/
-
 .social-icons #subseccion1{
   position: absolute;
   top:4px;
@@ -385,7 +377,6 @@ ul.sub-menu {
 /*************************
 *******Footer******
 **************************/
-
 #footer {
   padding-bottom: 10px;
   background:#9f5fba;
@@ -695,7 +686,6 @@ ul.sub-menu {
   background: #f5f6f8;  
   width:100%;
   }
-
 #several-images .texto{
   font-weight: bold;
   text-transform: uppercase;
@@ -721,7 +711,6 @@ ul.sub-menu {
   text-align:center;
   margin-top:50px;
 }
-
 /****#several-images"*/
 .follow{
   width: 100%;  
@@ -787,7 +776,6 @@ ul.sub-menu {
   text-align:center;
   padding-top:10px;
   padding-bottom:10px;
-
 }
 /****#features*/
 .section4_page2{
@@ -801,8 +789,7 @@ ul.sub-menu {
   font-size: 20px;
   text-align:left;
   padding-bottom:10px;
-} 
-
+}
 
 /*************************
 *******Pagina 3° Productos******
@@ -812,12 +799,12 @@ section#block-red{
 	background:#EA4B35;
 }
 section#block-red .textos{
-		color:text-align: center;
+		text-align: center;
 		padding:10px; 
 		padding-top:20px;
 		font-weight: bold;
 		text-transform: uppercase;
-		color: #FFFDFE;;
+		color: #FFFDFE;
 		font-size:22px;
 		letter-spacing:-1px;
     display: inline-block;
@@ -960,7 +947,35 @@ div#items-2{
 }
 #action-icons-grid{
 	display:none;
+}
 
+/*************************
+*******Product-individual******
+**************************/
+/**block-red**/
+#block-red .link-detail{
+   margin:auto 0px;
+   margin-top: 20px;
+}
+#block-red .link-detail a{
+  background: #EE7465;
+  padding: 2px 10px;
+  color: #FFFDFE;
+  font-weight: bolder;
+}
+/*view-items-individual*/
+section#view-items-individual{
+  background:#f5f6f8;
+  border:1px solid red;
+}
+section#view-items-individual .items-individual{
+  margin: 20px 0px;
+}
+section#view-items-individual .items-individual .img-description{
+  background: #8939A8;
+}
+section#view-items-individual .items-individual .img-description div>img{
+  margin-left: -30px;
 }
 
 
