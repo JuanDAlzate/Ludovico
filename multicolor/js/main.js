@@ -111,10 +111,26 @@ jQuery(function($) {'use strict';
 	}
 
 });
-function ver(n) {
-               document.getElementById("subseccion"+n).style.display="block"
-               }
-      function ocultar(n) {
-               document.getElementById("subseccion"+n).style.display="none"
-               }
+    /*Funcion para mostrar el item para la seleccion de idioma*/
+	function ver(n) {
+	               document.getElementById("subseccion"+n).style.display="block";
+	               }
+	function ocultar(n) {
+	               document.getElementById("subseccion"+n).style.display="none";
+	               }
+
+    /**Funcion para mostrar el contenedor que contiene los items2*/ 
+    function verItems2(n) {
+	               document.getElementById("items1").style.display="none";
+	               document.getElementById("items-"+n).style.display="block";
+	               document.getElementById("action-icons-grid").style.display="block";
+	               document.getElementById("action-icons-list").style.display="none";
+	              }
+	function ocultarItems2(n) {
+					document.getElementById("items1").style.display="block";
+					document.getElementById("items-"+n).style.display="none";
+					document.getElementById("action-icons-grid").style.display="none";
+	               document.getElementById("action-icons-list").style.display="block";
+
+			      }            
 

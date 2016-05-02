@@ -392,7 +392,6 @@ ul.sub-menu {
   color:#FEFBFD;
   padding-top: 70px;
   padding-bottom: 70px;
-
 }
 #footer .container-us .texto,.container-news .texto{
   color:#FEFBFD;
@@ -414,7 +413,6 @@ ul.sub-menu {
   margin-right: 5px;
   margin-top:20px;
 }
-
 #footer .container-news .content-images dl{
   margin-top:-65px;
   margin-left: 60px;
@@ -431,9 +429,7 @@ ul.sub-menu {
   color:#FEFBFD;
   font-size: 13px;
   color: #C9ABD8;
-
 }
-
 #footer .container-tags .texto{
   color:#FEFBFD;
   font-weight: bold;
@@ -843,8 +839,10 @@ section#catalog-two {
 section#catalog-two .items{
 	box-sizing:border-box;
 	margin-bottom:30px;
-  padding: 0px 0px;
-  padding-bottom: -10px !important;
+  	padding: 0px 0px;
+  	border:1px solid #C5C5C5;
+  	border-radius:10px;
+  
 }
 section#catalog-two .items .images{
 	display:inline-block;	
@@ -855,6 +853,8 @@ section#catalog-two .items .images{
 }
 section#catalog-two .items .images img{
 	width:100%;
+	margin-bottom:-6px;
+	border-radius: 10px 0px 0px 10px;
 }
 section#catalog-two .items .description{
 	display:inline-block;
@@ -868,7 +868,7 @@ section#catalog-two .items .description .text{
 	font-weight: bold;
 	margin-bottom: 20px;
 	color: #3a4652;	  
-  display: inline-block;
+  	display: inline-block;
 }
 section#catalog-two .items .description div.stars{
   display: inline-block;
@@ -916,8 +916,52 @@ section.follow div.icon-ludo{
 	left:30px;
 	margin-bottom:15px;
 }
+/*******Estilos para la vista de los ITems2 en cuadricula********/
+#catalog-two .items2{
+	height:950px;
+	box-sizing:border-box;
+	padding:0px 0px;
+}
+#catalog-two .items2 .items-individual{
+	border:1px solid #C5C5C5;
+	padding:0px;
+	display:inline-block;
+	text-align:center;
+	margin-right:37px;
+	float:center;
+	margin-bottom:37px;
+	border-radius:10px 10px 10px 10px;
+}
+#catalog-two .items2 .items-individual img{
+	border-radius:10px 10px 0px 0px;
+}
+#catalog-two .items2 .items-individual:nth-child(3),
+#catalog-two .items2 .items-individual:nth-child(6){
+	margin-right:0px;
+}
+#catalog-two .items2 .items-individual .text{
+	font-weight: bold;
+	color: #3a4652;	 
+}
+#catalog-two .items2 .items-individual .text:nth-child(1){
+	font-weight: bold;
+	color: #3a4652;	  
+	margin-top:10px;
+}
+#catalog-two .items2 .items-individual .text-words{
+	margin-top:-15px;
+}
+#catalog-two .items2 .items-individual div.stars{
+	margin-top:-10px;
+}
+/***Codigo para esconder el div que contiene los items2***/
+div#items-2{
+	display:none;
+}
+#action-icons-grid{
+	display:none;
 
-
+}
 
 
 /*************************

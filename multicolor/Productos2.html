@@ -98,9 +98,15 @@
             <div class="row">
                 <div class="col-md-12">
                     <p class="textos">Home / Productos</p>
-                     <div class="icons-view pull-right">
-                        <img src="Productos/opt3.png" alt="">
-                        <img src="Productos/opt4.png" alt="">
+                     <div class="icons-view pull-right"  id="action-icons-list">
+                        <a href=""><img src="Productos/opt4.png" alt="" onmouseover="ocultarItems2(2)"></a>
+                        <a href=""><img src="Productos/opt3.png" alt="" onmouseover="verItems2(2)"></a>
+                        
+                     </div>
+                     <div class="icons-view pull-right" id="action-icons-grid">
+                        
+                        <a href=""><img src="Productos/opt2.png" alt="" onmouseover="ocultarItems2(2)"></a>
+                        <a href=""><img src="Productos/opt1.png" alt="" onmouseover="verItems2(2)"></a>
                      </div>
                 </div>
             </div>
@@ -109,7 +115,7 @@
      <!--/#block-red-->   
 
     <section id="catalog-two">
-        <div class="container">
+        <div class="container" id="items1">
             <div class="row">
                 <div class="items col-md-12" col data-wow-duration="500ms" data-wow-delay="300ms">
                     <div class="images">
@@ -125,7 +131,7 @@
                           <img src="Productos/star1_03.png" alt="">
                           <img src="Productos/star1_03.png" alt="">
                           <img src="Productos/star1_03.png" alt="">
-                          <img src="Productos/star1_03.png" alt="">
+                          <img src="Productos/star1_04.png" alt="">
                         </div>
                       </p>
                       <hr>
@@ -147,7 +153,7 @@
                           <img src="Productos/star1_03.png" alt="">
                           <img src="Productos/star1_03.png" alt="">
                           <img src="Productos/star1_03.png" alt="">
-                          <img src="Productos/star1_03.png" alt="">
+                          <img src="Productos/star1_04.png" alt="">
                         </div>
                       </p>
                       <hr>
@@ -169,7 +175,7 @@
                           <img src="Productos/star1_03.png" alt="">
                           <img src="Productos/star1_03.png" alt="">
                           <img src="Productos/star1_03.png" alt="">
-                          <img src="Productos/star1_03.png" alt="">
+                          <img src="Productos/star1_04.png" alt="">
                         </div>
                       </p>
                       <hr>
@@ -191,7 +197,7 @@
                           <img src="Productos/star1_03.png" alt="">
                           <img src="Productos/star1_03.png" alt="">
                           <img src="Productos/star1_03.png" alt="">
-                          <img src="Productos/star1_03.png" alt="">
+                          <img src="Productos/star1_04.png" alt="">
                         </div>
                       </p>
                       <hr>
@@ -199,8 +205,105 @@
                       <img src="Productos/Comprar.png" alt=""> <img src="Productos/Favorito.png" alt="">
                     </div>                 
                 </div>
-            </div>
-        </div>
+                </div>
+                </div>
+
+                <!--Div donde se aloja la segunda vista de los items-->
+                <div class="container" id="items-2">
+                 <div class="items2 col-md-12" col data-wow-duration="500ms" data-wow-delay="300ms">
+                   <div class="items-individual">
+                     <img src="Productos/ProductUno.png" class="img-responsive" alt="">
+                      <div class="description-items-individual">
+                        <p class="text">Producto Numero 1</p>
+                        <p class="text-words">400 palabras</p>
+                        <div class="stars">
+                          <img src="Productos/star1_03.png" alt="">
+                          <img src="Productos/star1_03.png" alt="">
+                          <img src="Productos/star1_03.png" alt="">
+                          <img src="Productos/star1_03.png" alt="">
+                          <img src="Productos/star1_04.png" alt="">
+                        </div>
+                      <p class="text">$ 40.000</p>
+                    </div>   
+                   </div>
+                   <div class="items-individual">
+                     <img src="Productos/ProductDos.png" class="img-responsive" alt="">
+                      <div class="description-items-individual">
+                        <p class="text">Producto Numero 1</p>
+                        <p class="text-words">400 palabras</p>
+                        <div class="stars">
+                          <img src="Productos/star1_03.png" alt="">
+                          <img src="Productos/star1_03.png" alt="">
+                          <img src="Productos/star1_03.png" alt="">
+                          <img src="Productos/star1_03.png" alt="">
+                          <img src="Productos/star1_04.png" alt="">
+                        </div>
+                      <p class="text">$ 40.000</p>
+                    </div>   
+                   </div>
+                   <div class="items-individual">
+                     <img src="Productos/ProductTres.png" class="img-responsive" alt="">
+                      <div class="description-items-individual">
+                        <p class="text">Producto Numero 1</p>
+                        <p class="text-words">400 palabras</p>
+                        <div class="stars">
+                          <img src="Productos/star1_03.png" alt="">
+                          <img src="Productos/star1_03.png" alt="">
+                          <img src="Productos/star1_03.png" alt="">
+                          <img src="Productos/star1_03.png" alt="">
+                          <img src="Productos/star1_04.png" alt="">
+                        </div>
+                      <p class="text">$ 40.000</p>
+                    </div>   
+                   </div>
+                   <div class="items-individual">
+                     <img src="Productos/ProductCuatro.png" class="img-responsive" alt="">
+                      <div class="description-items-individual">
+                        <p class="text">Producto Numero 1</p>
+                        <p class="text-words">400 palabras</p>
+                        <div class="stars">
+                          <img src="Productos/star1_03.png" alt="">
+                          <img src="Productos/star1_03.png" alt="">
+                          <img src="Productos/star1_03.png" alt="">
+                          <img src="Productos/star1_03.png" alt="">
+                          <img src="Productos/star1_04.png" alt="">
+                        </div>
+                      <p class="text">$ 40.000</p>
+                    </div>   
+                   </div>
+                    <div class="items-individual">
+                     <img src="Productos/ProductSeis.png" class="img-responsive" alt="">
+                      <div class="description-items-individual">
+                        <p class="text">Producto Numero 1</p>
+                        <p class="text-words">400 palabras</p>
+                        <div class="stars">
+                          <img src="Productos/star1_03.png" alt="">
+                          <img src="Productos/star1_03.png" alt="">
+                          <img src="Productos/star1_03.png" alt="">
+                          <img src="Productos/star1_03.png" alt="">
+                          <img src="Productos/star1_04.png" alt="">
+                        </div>
+                      <p class="text">$ 40.000</p>
+                    </div>   
+                   </div>                   
+                   <div class="items-individual">
+                     <img src="Productos/ProductCinco.png" class="img-responsive" alt="">
+                      <div class="description-items-individual">
+                        <p class="text">Producto Numero 1</p>
+                        <p class="text-words">400 palabras</p>
+                        <div class="stars">
+                          <img src="Productos/star1_03.png" alt="">
+                          <img src="Productos/star1_03.png" alt="">
+                          <img src="Productos/star1_03.png" alt="">
+                          <img src="Productos/star1_03.png" alt="">
+                          <img src="Productos/star1_04.png" alt="">
+                        </div>
+                      <p class="text">$ 40.000</p>
+                    </div>   
+                   </div>
+
+                </div>
+              </div>        
     </section>
      <!--/#Fcatalog-two-->
 
