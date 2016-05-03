@@ -966,22 +966,56 @@ div#items-2{
 /*view-items-individual*/
 section#view-items-individual{
   background:#f5f6f8;
-  border:1px solid red;
+  border:2px solid blue;
+  overflow: hidden;
 }
 section#view-items-individual .items-individual{
   margin: 20px 0px;
+  width: 100%;
+  position: relative;
+  overflow: hidden; 
+}
+section#view-items-individual .items-individual .images-little{
+  display: inline-block;
+  width: 8%;
+  margin-left: 11%;
+}
+section#view-items-individual .items-individual .images-little  img{
+  margin-bottom:15px;
+}
+
+section#view-items-individual .items-individual .images-little  img:nth-child(2),
+section#view-items-individual .items-individual .images-little  img:nth-child(3)
+{
+ opacity:0.3;
+}
+section#view-items-individual .items-individual .images-little  img:nth-child(2):hover,
+section#view-items-individual .items-individual .images-little  img:nth-child(3):hover
+{
+ opacity: 1;
 }
 section#view-items-individual .items-individual .img-description{
   background: #8939A8;
   display: inline-block;
+  width: 80%;
+  box-sizing: border-box;
+  float:right;
+  overflow: auto !important;
 }
 section#view-items-individual .items-individual .img-description div>img{
-  margin-left: -30px;
-  margin-bottom: 0px;
+  margin-left:-14px;
+  display: inline-block;
+  margin-right: 10px !important;
 }
 section#view-items-individual .items-individual .img-description .description{
   color:#FFFDFE;  
   margin-top:20px;
+  overflow: auto;
+  display: inline-block;
+  float:center;
+  position: relative;
+  padding-left:14px;
+
 }
 section#view-items-individual .items-individual .img-description .description p.text{
 	color:red;
@@ -993,6 +1027,7 @@ section#view-items-individual .items-individual .img-description .description p.
 section#view-items-individual .items-individual .img-description .description p.precio{
 	margin-top:-10px;
 	color: #FFFDFE;
+  font-weight: bolder;
 }
 section#view-items-individual .items-individual .img-description .description hr{
 	margin-top:-5px;
@@ -1001,15 +1036,17 @@ section#view-items-individual .items-individual .img-description .description .d
 {
 	margin-top:-10px;
 	color: #FFFDFE;
+  font-weight: bolder;
 }
-section#view-items-individual .items-individual .img-description .description {
-	}
 section#view-items-individual .items-individual .img-description .description p:nth-child(5) {
 	color:#FFFDFE;
 	padding-bottom:15px;
+  padding-top: 10px;
+  font-weight: bolder;
 }
 section#view-items-individual .items-individual .img-description .description .butoms-purchase{
-	margin-top:-25px;
+	margin-top:-20px;
+  margin-bottom: 5px;
 }
 section#view-items-individual .items-individual .img-description .description .butoms-purchase .numeracion{
 	display:inline-block;
@@ -1042,7 +1079,7 @@ section#view-items-individual .items-individual .img-description .description .r
   display: inline-block;
 }
 section#view-items-individual .items-individual .img-description .description .rating p{
-  margin-right:40px;
+  margin-right:20px;
   font-weight: bolder;
 }
 section#view-items-individual .items-individual .img-description .description .rating .starts img{
@@ -1054,8 +1091,15 @@ section#view-items-individual .items-individual .img-description .description .r
   margin-left: 60px;
   font-weight: bolder;
 }
+/*div que contiene los iconos*/
+section#view-items-individual .icons-social-networks{
+  display: block;
+}
+section#view-items-individual .icons-social-networks .icons{
+   margin-top: -10px;
+}
 
-
+  
 
 
 /*************************
