@@ -855,7 +855,7 @@ section#catalog-two .items .description .text{
 	font-weight: bold;
 	margin-bottom: 20px;
 	color: #3a4652;	  
-  	display: inline-block;
+  display: inline-block;
 }
 section#catalog-two .items .description div.stars{
   display: inline-block;
@@ -1097,9 +1097,32 @@ section#view-items-individual .icons-social-networks{
 }
 section#view-items-individual .icons-social-networks .icons{
    margin-top: -10px;
+   margin-bottom: 20px;
 }
-
-  
+/*div que contiene todo lo relacionado con los comentarios*/
+section#view-items-individual .all-comments{  
+  height: 220px;
+  margin-top: 80px;
+}
+section#view-items-individual .all-comments .options{
+  border-bottom:1px solid gray;
+  display: block; 
+  width: 80%; 
+  margin:0 auto;
+}
+section#view-items-individual .all-comments .select{
+  display: inline-block;
+  margin:1px 5px;
+  padding: 5px 10px;
+  font-weight: bold;
+  color: #3a4652; 
+  opacity: 0.3;
+}
+section#view-items-individual .all-comments .select:hover{
+  border:1px solid gray;
+  border-bottom: none;
+  opacity: 1;
+}  
 
 
 /*************************
