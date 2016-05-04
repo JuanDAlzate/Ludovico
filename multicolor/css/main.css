@@ -963,10 +963,10 @@ div#items-2{
   color: #FFFDFE;
   font-weight: bolder;
 }
+
 /*view-items-individual*/
 section#view-items-individual{
   background:#f5f6f8;
-  border:2px solid blue;
   overflow: hidden;
 }
 section#view-items-individual .items-individual{
@@ -1015,7 +1015,6 @@ section#view-items-individual .items-individual .img-description .description{
   float:center;
   position: relative;
   padding-left:14px;
-
 }
 section#view-items-individual .items-individual .img-description .description p.text{
 	color:red;
@@ -1101,11 +1100,11 @@ section#view-items-individual .icons-social-networks .icons{
 }
 /*div que contiene todo lo relacionado con los comentarios*/
 section#view-items-individual .all-comments{  
-  height: 220px;
   margin-top: 80px;
 }
-section#view-items-individual .all-comments .options{
-  border-bottom:1px solid gray;
+section#view-items-individual .all-comments .options,
+section#view-items-individual .all-comments .questions
+{
   display: block; 
   width: 80%; 
   margin:0 auto;
@@ -1119,12 +1118,77 @@ section#view-items-individual .all-comments .select{
   opacity: 0.3;
 }
 section#view-items-individual .all-comments .select:hover{
-  border:1px solid gray;
+  border:1px solid #D6D6D6;
   border-bottom: none;
   opacity: 1;
 }  
+/*Estilo para el bloque de preguntas*/
+section#view-items-individual .all-comments .questions{
+  margin-top: 20px;  
+}
+section#view-items-individual .all-comments .questions form{
+  border-bottom: 1px solid #D6D6D6;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
 
-
+}
+section#view-items-individual .all-comments .questions p.header{
+  font-size: 22px;
+  letter-spacing: -1px;
+  color: #3a4652; 
+  font-weight: bold;
+}
+section#view-items-individual .all-comments .questions p.words{
+  letter-spacing: -1px;
+  margin-top: -5px;  
+}
+section#view-items-individual .all-comments .questions input.placeholder{
+  margin:0 auto;
+  display: block;
+  width: 100%;
+  text-align: center;
+  height: 80px;
+  border:1px solid #D6D6D6;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+section#view-items-individual .all-comments .questions .button-send{
+  margin-right: 20px;
+  display: inline-block;
+}
+section#view-items-individual .all-comments .questions .text-rating{
+  display: inline-block;  
+  position: relative;
+  bottom: 15px;
+  margin-right: 5px;
+}
+section#view-items-individual .all-comments .questions div.starts{
+  display: inline-block;
+  position: relative;
+  bottom: 15px;
+}
+section#view-items-individual .all-comments .questions div.comment-user{
+  border-bottom: 1px solid #D6D6D6;
+  margin-bottom: 40px;
+}
+section#view-items-individual .all-comments .questions div.comment-user img{
+  display: inline-block;
+}
+section#view-items-individual .all-comments .questions div.comment-user .head-comment{
+  display: inline-block;
+  vertical-align: top;
+  width: 92.5%;
+  margin-left:1%;
+}
+section#view-items-individual .all-comments .questions div.comment-user .head-comment p:nth-child(1){
+  font-weight: bold;
+  letter-spacing: -1px;
+  color: #3a4652;
+}
+section#view-items-individual .all-comments .questions div.comment-user .head-comment p:nth-child(2){
+  font-size: 13px;
+  font-weight: bolder;
+}
 /*************************
 *******About Us Page******
 **************************/
