@@ -1221,10 +1221,8 @@ div.head-environmental img{
 section#all-items .wow{
   display: block;
   margin:0px auto;
-  border:1px solid red;
 }
 section#all-items .items{
-  border:1px solid black;
   text-align: center;
   margin: 60px 40px;
   padding:0px 20px;
