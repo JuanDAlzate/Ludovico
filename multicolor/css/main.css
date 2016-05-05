@@ -1190,6 +1190,48 @@ section#view-items-individual .all-comments .questions div.comment-user .head-co
   font-weight: bolder;
 }
 /*************************
+*******Cuidado ambiental******
+**************************/
+/*head*/
+div.head-environmental{
+  width: 100%;
+  margin: 0px;
+  padding:0px;
+}
+div.head-environmental img{
+  min-height: 200px;
+}
+/*conoce-mas block-green*/
+.block-green{
+  background: #00BE9C;
+  width: 100%;
+  margin-top: -1.5px;
+}
+.block-green .textos{
+  text-align: center;
+  padding-top:30px;
+  padding-bottom:30px; 
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #FFFDFE;
+  font-size: 25px;
+  letter-spacing: -1px;
+}
+/*#all-items*/
+section#all-items .wow{
+  display: block;
+  margin:0px auto;
+  border:1px solid red;
+}
+section#all-items .items{
+  border:1px solid black;
+  text-align: center;
+  margin: 60px 40px;
+  padding:0px 20px;
+  padding-top:30px;  
+}
+
+/*************************
 *******About Us Page******
 **************************/
 
