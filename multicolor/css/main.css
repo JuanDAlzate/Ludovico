@@ -1227,8 +1227,77 @@ section#all-items .items{
   margin: 60px 40px;
   padding:0px 20px;
   padding-top:30px;  
+  border:1px solid #C5C5C5;
+  border-radius:10px;
 }
-
+section#all-items .items .head{
+	font-weight: bold;
+	margin-bottom: 20px;
+	color: #3a4652;	  
+	margin-top:30px;
+}
+/*#several-images*/
+section#several-images div.description{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+section#several-images div.description p.head{
+    font-weight: bold;
+	color: #3a4652;	  
+	font-size:25px;
+	letter-spacing:-1px;
+	margin-bottom:30px;
+}
+section#several-images div.description p{
+    font-weight: bolder;
+}
+section#several-images div.img{
+    margin-top:50px;
+    padding-left:-30px;
+}
+/*section#drops*/
+section.drops{
+	padding-bottom:50px;
+}
+section.drops p.head{
+	text-align:center;
+	font-weight: bold;
+	color: #3a4652;	  
+	font-size:25px;
+	letter-spacing:-1px;
+	margin-top:70px;
+}
+section.drops p.paragrapah{
+	text-align:center;
+	font-weight:bolder;
+	margin-top:30px;
+	margin-bottom:60px;
+}
+section.drops .items{
+	margin-bottom:30px;
+}
+section.drops .items img{
+	display:inline-block;
+	width:20%;
+	margin-left:-15px;
+}
+section.drops .items .description{
+	display:inline-block;
+	width:90%;
+	float:right;
+	vertical-align:top;
+}
+section.drops .items .description{
+	display:inline-block;
+	width:80%;
+	float:right;
+	vertical-align:top;	
+}
+section.drops .items .description .head{
+	margin-top:25px;
+	font-size:18px;
+	text-align:left;
+}
 /*************************
 *******About Us Page******
 **************************/
