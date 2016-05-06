@@ -134,3 +134,29 @@ jQuery(function($) {'use strict';
 
 			      }            
 
+function initMap() {
+  var myLatLng = {lat: 5.6334704, lng: -75.3229741};
+
+  // Create a map object and specify the DOM element for display.
+  var map = new google.maps.Map(document.getElementById('map'), {
+    center: myLatLng,
+    scrollwheel: true,
+    zoomControl: false,
+    zoom: 8
+  });
+
+  // Create a marker and set its position.
+  var medellin = {lat: 6.1707179, lng: -75.5759921};
+  var marker = new google.maps.Marker({
+    map: map,
+    position: medellin ,
+    title: 'Hello World!'
+  });
+
+ 	var manizales = {lat: 5.0631526, lng: -75.4969817};
+  var marker2 = new google.maps.Marker({
+    map: map,
+    position: manizales,
+    title: 'Hello World!'
+  });
+}

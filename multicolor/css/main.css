@@ -367,11 +367,26 @@ ul.sub-menu {
 }
 
 /*Dropdown menu idioma*/
+@media screen and (max-width: 480px) {
+   #seccion1{
+      margin-right: 70px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .social-icons #subseccion1{
+        position: absolute;
+        top: 630px;
+        left: 100%; 
+        width: 70%; 
+}    
+}
 .social-icons #subseccion1{
   position: absolute;
   top:4px;
   right: 90%;
   width: 70%;  
+}
+.social-icons #subseccion1 p{
 }
 
 /*************************
@@ -1259,13 +1274,14 @@ section#several-images div.img{
 section.drops{
 	padding-bottom:50px;
 }
-section.drops p.head{
-	text-align:left;
-	font-weight: bold;
-	color: #3a4652;	  
-	font-size:25px;
-	letter-spacing:-1px;
-	margin-top:70px;
+
+section.drops .head-primary{
+ text-align:center;
+  font-weight: bold;
+  color: #3a4652;   
+  font-size:25px;
+  letter-spacing:-1px;
+  margin-top:70px;
   display: block;
 }
 section.drops p.paragrapah{
@@ -1277,10 +1293,18 @@ section.drops p.paragrapah{
 section.drops .description-contact{
 }
 section.drops .description-contact .contact-us{
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+}
+section.drops .description-contact .contact-us p.head{
+   text-align:left;
+  font-weight: bold;
+  color: #3a4652;   
+  font-size:16px;
+  letter-spacing:-1px;
+  display: block;
 }
 section.drops .description-contact .contact-us .information{
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   padding: 0px;
   text-align: left;
   font-weight: bolder;
@@ -1313,6 +1337,9 @@ section.green{
   margin-bottom: -2px;
 }
 /*drops*/
+.drops form{
+  margin-bottom: 90px;
+}
 
 .drops input{
   background: #F5F6F8;
@@ -1321,6 +1348,7 @@ section.green{
   background: none;
   margin-top: 20px;
   margin-bottom: 10px;
+  display: block;
 }
 .drops .placeholder{
   height: 200px;
@@ -1351,10 +1379,16 @@ section.green{
 div.head-maps{
   background: white;
 }
-div.head-maps iframe{
-  position: relative;
-  width: 100%;
+div.head-maps #map{
+   width: 100%;
+   height: 320px;
 }
+
+/*div.head-maps iframe{
+  position: relative;
+  width: 50%;
+  display: inline-block;
+}*/
 /*section.follow-icons*/
 section.follow-contact{
   background: #F5F6F8;

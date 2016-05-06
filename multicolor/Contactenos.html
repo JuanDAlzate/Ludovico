@@ -42,7 +42,7 @@
                     </div> 
                     <div class="social-icons pull-right">
                         <ul class="nav nav-pills">
-                            <li id="seccion1" onmouseover="ver(1)" onmouseout="ocultar(1)" class="dropdown"><a href="#"><img src="Home/002_03.png" alt="Social icons image"> Español <img src="Home/001_23.png" alt=""></a>
+                            <li id="seccion1" onmouseover="ver(1)" onmouseout="ocultar(1)" class="dropdown necesary"><a href="#"><img src="Home/002_03.png" alt="Social icons image"> Español <img src="Home/001_23.png" alt=""></a>
                               <div id="subseccion1">
                                 <p><a href=""><img src="Home/002_05.png" alt=""> English</a></p>
                               </div>
@@ -105,7 +105,8 @@
      <!--/#block-red-->   
 
     <div class="container-fluid head-environmental head-maps">        
-                <iframe src="https://www.google.com/maps/d/embed?mid=1g7oedndLRSxIWJPqXwF6EPcF3js" width="640" height="480"></iframe>
+             <!--   <iframe src="https://www.google.com/maps/d/embed?mid=1g7oedndLRSxIWJPqXwF6EPcF3js" width="640" height="480"></iframe>
+-->         <div id="map"></div>
     </div>    
     <!--/#home-slider-->
 
@@ -124,7 +125,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
-             <p class="head">¿DONDE NOS PUEDES ENCONTRAR?</p>
+             <p class="head-primary">¿DONDE NOS PUEDES ENCONTRAR?</p>
              <p class="paragrapah">¿Deseas recibir información acerca de nuestros productos o servicios? Encuentra aqui varias maneras de contactarnos cualquier sea tu <br>
              necesidad. Estamos a tu disposición.</p>
               <div class="col-md-9">
@@ -169,7 +170,7 @@
                         <div class="col-md-1"></div>
                         <div class="col-md-10 pull-right">
                           <a href=""></a><img src="Contacto/Twit.png" alt="">
-                          <a href=""></a><img src="Contacto/Face.png" alt="">
+                          <a href="https://www.facebook.com/MundoLudovicoJugueteria"></a><img src="Contacto/Face.png" alt="">
                           <a href=""></a><img src="Contacto/Plus.png" alt="">
                         </div>
                         <div class="col-md-1"></div>              
@@ -308,6 +309,8 @@
     <script type="text/javascript" src="js/lightbox.min.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
-        
+        <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAR2e2SGANN4JM_zFUzpmZ3kgNt4btk5Uw&callback=initMap">
+    </script>
 </body>
 </html>
