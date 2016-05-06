@@ -1298,6 +1298,12 @@ section.drops .items .description .head{
 	font-size:18px;
 	text-align:left;
 }
+/*section*/
+section.social-icons{
+  background: #F7F8FA;
+  margin-bottom: 0px;
+  padding:30px 0px;
+}
 /*************************
 *******About Us Page******
 **************************/
