@@ -1260,12 +1260,13 @@ section.drops{
 	padding-bottom:50px;
 }
 section.drops p.head{
-	text-align:center;
+	text-align:left;
 	font-weight: bold;
 	color: #3a4652;	  
 	font-size:25px;
 	letter-spacing:-1px;
 	margin-top:70px;
+  display: block;
 }
 section.drops p.paragrapah{
 	text-align:center;
@@ -1273,37 +1274,96 @@ section.drops p.paragrapah{
 	margin-top:30px;
 	margin-bottom:60px;
 }
-section.drops .items{
-	margin-bottom:30px;
+section.drops .description-contact{
 }
-section.drops .items img{
-	display:inline-block;
-	width:20%;
-	margin-left:-15px;
+section.drops .description-contact .contact-us{
+  margin-bottom: 20px;
 }
-section.drops .items .description{
-	display:inline-block;
-	width:90%;
-	float:right;
-	vertical-align:top;
+section.drops .description-contact .contact-us .information{
+  margin-bottom: 10px;
+  padding: 0px;
+  text-align: left;
+  font-weight: bolder;
 }
-section.drops .items .description{
-	display:inline-block;
-	width:80%;
-	float:right;
-	vertical-align:top;	
+section.drops .description-contact .contact-us .information img{
+  display: inline-block;
+  margin-right: 0px;
 }
-section.drops .items .description .head{
-	margin-top:25px;
-	font-size:18px;
-	text-align:left;
+section.drops .description-contact .contact-us .information p.desc{
+  display: inline-block;
 }
-/*section*/
-section.social-icons{
-  background: #F7F8FA;
-  margin-bottom: 0px;
-  padding:30px 0px;
+section.drops .description-contact .contact-us .information p.schedules{
+  text-align: left;
 }
+
+/*************************
+*******Contactenos******
+**************************/
+section.block-green p.contact{
+  text-align: left;
+  padding-top:30px;
+  padding-bottom:20px; 
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  font-size: 22px;
+  letter-spacing: -1px;
+}
+section.green{
+  margin-bottom: -2px;
+}
+/*drops*/
+
+.drops input{
+  background: #F5F6F8;
+}
+.drops input.button-send-contact{
+  background: none;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.drops .placeholder{
+  height: 200px;
+}
+.drops .description-contact {
+  vertical-align: top;
+}
+.drops .description-contact p.head {
+  font-size: 16px;
+  margin-top: -5px;
+}
+.drops .description-contact .information{
+  font-weight: bolder;
+  margin-bottom: 40px;
+}
+.drops .description-contact .information-3{
+  margin-top: -30px;
+}
+.drops .description-contact .information img{
+}
+.drops .description-contact .information p{
+  display:inline-block;
+  float: right;
+  width: 85%;
+  margin-top:-2px;
+}
+/*HEAD maps*/
+div.head-maps{
+  background: white;
+}
+div.head-maps iframe{
+  position: relative;
+  width: 100%;
+}
+/*section.follow-icons*/
+section.follow-contact{
+  background: #F5F6F8;
+  margin-bottom:0px;
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+
+
 /*************************
 *******About Us Page******
 **************************/
