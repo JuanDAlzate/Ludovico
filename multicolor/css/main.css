@@ -1397,6 +1397,23 @@ section.follow-contact{
   padding-top: 30px;
 }
 
+/*************************
+*******Login******
+**************************/
+section.block-green p.contact{
+  display: inline-block;
+}
+section.block-green p.description{
+  display: inline-block;
+  float: right;
+  vertical-align: bottom;
+  color:white;
+  font-weight: bolder;
+  margin-top: 30px;
+}
+section.block-green p.description a{
+  color:white;
+}
 
 /*************************
 *******About Us Page******
