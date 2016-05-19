@@ -726,7 +726,19 @@ ul.sub-menu {
   text-align:center;
   margin-top:50px;
 }
-/****#several-images"*/
+/*Several-images .imagesOn-file*/
+#several-images{
+}
+#several-images .imagesOn-file{
+  text-align: center;
+}
+#several-images .imagesOn-file .block-image{
+  display: inline-block;
+  margin:0px 0.5px;
+  margin-bottom: -5px;
+}
+
+/****#follow"*/
 .follow{
   width: 100%;  
   margin:30px 0px;
