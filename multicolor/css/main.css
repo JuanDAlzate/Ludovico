@@ -789,6 +789,14 @@ ul.sub-menu {
 #features .single-featuresDos .paragraph p{
   text-align:center;
 }
+#features .single-featuresDos .text-head{
+  text-align:center;
+  color: #3a4652;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
 #features .single-featuresDos .circle {
   text-align:center;
 }
@@ -798,7 +806,7 @@ ul.sub-menu {
 }
 #features .single-featuresDos .circle .text-circle{
  font-weight: bold;
-  color: #3a4652;
+  /*color: #3a4652;*/
   font-size: 18px;
   text-align:center;
   padding-top:10px;
