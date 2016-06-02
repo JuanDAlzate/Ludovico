@@ -954,6 +954,9 @@ section.follow div.icon-ludo{
 	margin-bottom:37px;
 	border-radius:10px 10px 10px 10px;
 }
+#catalog-two .items2 #item-vertical{
+  vertical-align: top;
+}
 #catalog-two .items2 .items-individual img{
 	border-radius:10px 10px 0px 0px;
 }
