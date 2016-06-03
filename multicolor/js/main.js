@@ -160,3 +160,42 @@ function initMap() {
     title: 'Hello World!'
   });
 }
+
+//Codigo que permitira cambiar la imagen principal en la descipcion del producto al hacer click sobre la que se quiere ver
+
+function cambiar(ruta,id){
+	imagen1=new Image();
+	imagen1.src=ruta;
+	document.images['img-principal'].src=imagen1.src;
+	switch (id) {
+		case 1:
+			document.getElementById(id).style.opacity=1;
+			document.getElementById(2).style.opacity=0.5;
+			document.getElementById(3).style.opacity=0.5;
+			document.getElementById(4).style.opacity=0.5;
+			break;
+		case 2:
+			document.getElementById(id).style.opacity=1;
+			document.getElementById(1).style.opacity=0.5;
+			document.getElementById(3).style.opacity=0.5;
+			document.getElementById(4).style.opacity=0.5;
+			break;
+		case 3:
+			document.getElementById(id).style.opacity=1;
+			document.getElementById(4).style.opacity=0.5;
+			document.getElementById(1).style.opacity=0.5;
+			document.getElementById(2).style.opacity=0.5;
+			break;
+		case 4:
+			document.getElementById(id).style.opacity=1;
+			document.getElementById(1).style.opacity=0.5;
+			document.getElementById(2).style.opacity=0.5;
+			document.getElementById(3).style.opacity=0.5;
+			break;
+		default:
+			// statements_def
+			break;
+	}
+	
+}
+

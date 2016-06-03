@@ -955,7 +955,7 @@ section.follow div.icon-ludo{
 	border-radius:10px 10px 10px 10px;
 }
 #catalog-two .items2 #item-vertical{
-  vertical-align: top;
+  vertical-align: bottom;
 }
 #catalog-two .items2 .items-individual img{
 	border-radius:10px 10px 0px 0px;
@@ -1023,12 +1023,14 @@ section#view-items-individual .items-individual .images-little  img{
 }
 
 section#view-items-individual .items-individual .images-little  img:nth-child(2),
-section#view-items-individual .items-individual .images-little  img:nth-child(3)
+section#view-items-individual .items-individual .images-little  img:nth-child(3),
+section#view-items-individual .items-individual .images-little  img:nth-child(4)
 {
- opacity:0.3;
+ opacity:0.5;
 }
 section#view-items-individual .items-individual .images-little  img:nth-child(2):hover,
-section#view-items-individual .items-individual .images-little  img:nth-child(3):hover
+section#view-items-individual .items-individual .images-little  img:nth-child(3):hover,
+section#view-items-individual .items-individual .images-little  img:nth-child(4):hover
 {
  opacity: 1;
 }
@@ -1074,6 +1076,10 @@ section#view-items-individual .items-individual .img-description .description .d
 	margin-top:-10px;
 	color: #FFFDFE;
   font-weight: bolder;
+}
+section#view-items-individual .items-individual .img-description .description .description-product .paragraph
+{
+  color:yellow;
 }
 section#view-items-individual .items-individual .img-description .description p:nth-child(5) {
 	color:#FFFDFE;
