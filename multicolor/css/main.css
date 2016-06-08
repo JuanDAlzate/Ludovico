@@ -857,10 +857,11 @@ section#catalog-two {
 	padding:30px;
 	padding-bottom:80px;
 	background:#f5f6f8;
+  overflow:auto;
 }
 section#catalog-two .items{
-	box-sizing:border-box;
-	margin-bottom:30px;
+  	box-sizing:border-box;
+  	margin-bottom:30px;
   	padding: 0px 0px;
   	border:1px solid #C5C5C5;
   	border-radius:10px;
