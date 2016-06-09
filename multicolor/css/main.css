@@ -417,7 +417,8 @@ ul.sub-menu {
 }
 #footer .container-us .container-images a img{
   margin-right: 5px;
-  margin-top:20px;
+  margin-top:0px;
+  margin-bottom: 30px;
 }
 #footer .container-news .content-images dl{
   margin-top:-65px;
@@ -446,6 +447,7 @@ ul.sub-menu {
 }
 #footer .container-tags .texto2{
   margin-top:5px;
+  margin-bottom: 5px;
 }
 #footer .container-tags .picture-tags{
   margin-right: 5px;
@@ -459,6 +461,7 @@ ul.sub-menu {
 }
 #footer .container-tags .texto-links{
   width:140px;
+  margin-bottom: 25px;
 }
 #footer .contact-us .texto{
   color:#FEFBFD;
@@ -869,7 +872,6 @@ section#catalog-two .items{
 }
 section#catalog-two .items .images{
 	display:inline-block;	
-	width:32%;
 	padding-bottom:0px;
 	margin:0px;	
 	box-sizing:border-box;
@@ -1077,6 +1079,24 @@ section#view-items-individual .items-individual .img-description .description .d
 	margin-top:-10px;
 	color: #FFFDFE;
   font-weight: bolder;
+}
+/*Div donde van las formas con la que se quiere el tapete*/
+ div.forms-selections{
+  width: 100%;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+ div.forms-selections p{
+  display: block;
+  text-align: left;
+ }
+div.forms-selections .form{
+  display: inline-block;
+  margin-right: 20px;
+}
+div.forms-selections div:nth-child(2){
+  margin-left: 20px;
+  
 }
 section#view-items-individual .items-individual .img-description .description .description-product .paragraph
 {
