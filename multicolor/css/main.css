@@ -1045,6 +1045,7 @@ section#view-items-individual .items-individual .img-description{
   float:right;
   overflow: auto !important;
 }
+
 section#view-items-individual .items-individual .img-description div>img{
   margin-left:-14px;
   display: inline-block;
@@ -1079,6 +1080,9 @@ section#view-items-individual .items-individual .img-description .description .d
 	margin-top:-10px;
 	color: #FFFDFE;
   font-weight: bolder;
+}
+section#view-items-individual .items-individual .img-description #letter-conf{
+  font-size: 15px;
 }
 /*Div donde van las formas con la que se quiere el tapete*/
  div.forms-selections{
@@ -1123,11 +1127,13 @@ section#view-items-individual .items-individual .img-description .description .b
 	font-weight:bold;
 	margin-bottom:10px;
 	padding:0px;
-	text-align:center;	
+	text-align:center;
+  margin-top: 10px;	
 }
 section#view-items-individual .items-individual .img-description .description .butoms-purchase .numeracion p{
 	position:relative;
 	top:10px;
+  text-align: center;
 }
 section#view-items-individual .items-individual .img-description .description .butoms-purchase img{
 	display:inline-block;
@@ -1160,7 +1166,7 @@ section#view-items-individual .icons-social-networks{
   display: block;
 }
 section#view-items-individual .icons-social-networks .icons{
-   margin-top: 10px;
+   margin-top: 5px;
    margin-bottom: -40px;
    text-align: center;
 }
@@ -1224,12 +1230,13 @@ section#view-items-individual .all-comments .questions input.placeholder{
 section#view-items-individual .all-comments .questions .button-send{
   margin-right: 20px;
   display: inline-block;
+  margin-bottom: 10px;
 }
 section#view-items-individual .all-comments .questions .text-rating{
   display: inline-block;  
   position: relative;
   bottom: 15px;
-  margin-right: 5px;
+  margin-right: 5px;  
 }
 section#view-items-individual .all-comments .questions div.starts{
   display: inline-block;
