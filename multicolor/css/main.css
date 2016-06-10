@@ -1160,8 +1160,12 @@ section#view-items-individual .icons-social-networks{
   display: block;
 }
 section#view-items-individual .icons-social-networks .icons{
-   margin-top: -10px;
-   margin-bottom: 20px;
+   margin-top: 10px;
+   margin-bottom: -40px;
+   text-align: center;
+}
+section#view-items-individual .icons-social-networks .icons img{
+  display: inline-block;
 }
 /*div que contiene todo lo relacionado con los comentarios*/
 section#view-items-individual .all-comments{  
